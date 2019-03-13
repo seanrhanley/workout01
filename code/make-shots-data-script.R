@@ -1,5 +1,7 @@
-###Title:
+###Title: Create usable player shot data in a single csv from multiple csv files.
 ###Description: This scripts reads in the five data sets in the data directory and creates a new data.frame out of them.
+###             adding name, and minute columns in the process. It also outputs a summary of each dataset 
+###             to the output directory after it has been completed.
 ###Input(s): No inputs required for the script to run.
 ###Output(s): The script outputs the new data.frame as a .csv file to the data directory.
 
