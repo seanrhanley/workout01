@@ -12,7 +12,7 @@ colTypes <- c('character', 'character', 'numeric', 'numeric', 'numeric', 'numeri
 
 
 
-#Load each data set into an object: file paths are relative
+#Load data set into an object: file paths are relative
 
 iguodala <- read.csv("../data/andre-iguodala.csv", stringsAsFactors = FALSE, header = TRUE, colClasses = colTypes)
 
@@ -28,6 +28,7 @@ sink("../output/andre-iguodala-summary.txt")
 print(summary(iguodala))
 sink()
 
+#Load data set into an object: file paths are relative
 green <- read.csv("../data/draymond-green.csv", stringsAsFactors = FALSE, header = TRUE, colClasses = colTypes)
 
 #add player name column to data frame
@@ -42,6 +43,7 @@ sink("../output/draymond-green-summary.txt")
 print(summary(green))
 sink()
 
+#Load data set into an object: file paths are relative
 durant <- read.csv("../data/kevin-durant.csv", stringsAsFactors = FALSE, header = TRUE, colClasses = colTypes)
 
 #add player name column to data frame
@@ -56,7 +58,7 @@ sink("../output/kevin-durant-summary.txt")
 print(summary(durant))
 sink()
 
-
+#Load data set into an object: file paths are relative
 thompson <- read.csv("../data/klay-thompson.csv", stringsAsFactors = FALSE, header = TRUE, colClasses = colTypes)
 
 #add player name column to data frame
@@ -71,6 +73,7 @@ sink("../output/klay-thompson-summary.txt")
 print(summary(thompson))
 sink()
 
+#Load data set into an object: file paths are relative
 curry <- read.csv("../data/stephen-curry.csv", stringsAsFactors = FALSE, header = TRUE, colClasses = colTypes)
 
 #add player name column to data frame
@@ -84,4 +87,21 @@ curry$minute <- (12*curry$period)-curry$minutes_remaining
 sink("../output/stephen-curry-summary.txt")
 print(summary(curry))
 sink()
+
+#create a list object to pass to rbind() and stack player data.frames into a tibble.
+shots_data <- rbind(curry, thompson, durant, green, iguodala, stringsAsFactors = FALSE)
+#export this data.frame as a .csv to /data directory
+write.csv(shots_data, "../data/shots-data.csv")
+
+
+#write summary of this data.frame in the output directory
+sink("../output/shots-data-summary.txt")
+print(summary(shots_data))
+sink()
+
+
+
+
+
+
 
