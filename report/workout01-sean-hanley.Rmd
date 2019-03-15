@@ -116,7 +116,7 @@ Now let's take a look at what type of shots were most effective.
 knitr::kable(as_tibble(effective_shooting_2pt), format='markdown')
 ```
 
-  Andre Iguodala successfully made a staggering 64% of his 2 point shots. But on closer inspection, only attempted roughly 25% of the same 2 point effort of the other 5 players. Kevin Durant was next with 60% of his 2 point shots being a success, while also attempting the most 2 point shots overall. The "bottom" were Thompson and Green making 50% of their attempted 2 point shots, but averaging roughly the same attempts as the rest of the group.
+  Andre Iguodala successfully made a staggering 64% of his 2 point shots. But on closer inspection, only attempted roughly 25% of the same 2 point effort of the other 5 players. Kevin Durant was next with 60% of his 2 point shots being a success, while also attempting the most 2 point shots overall. The "bottom" were Thompson and Green making 50% of their attempted 2 point shots, but averaging roughly the same attempts as the rest of the group. It seems that for 2 point shots success seems to float around the 50-60% range for all 5 players, with Iguodala being the most successful.
 
 3 Pointers:
 
@@ -124,19 +124,29 @@ knitr::kable(as_tibble(effective_shooting_2pt), format='markdown')
 knitr::kable(as_tibble(effective_shooting_3pt), format='markdown')
 ```
 
+  Curry attempted a disproportionately large amount of 3 points shots and made about 41% of them successfully. He was second right behind Thompson who made 100 less shots with an accuracy of 42%. Not much of a difference. Meanwhile, Durant, Iguodala, and Green attempted far below 50% of the same amount of 3 point shots with an accuracy range of 30%.
+  
+  
+  **Thoughts**
+  
+  Although Iguodala attempted nowhere near as many shots as the other players he was the most consistent and his 2 point shot success put him second overall behind Durant. 
+    
+  Why is Durant at the top? Probably because his number of attempts at 2 point shots mirrored the attempts of Thompson. Also, Durant has the same consistency in accuracy for 3 point shots as Iguodala does for 2 point shots.
+  
+  Curry's accuracy ranges consistently in the middle of each category while he also attempts the greatest total number of shots out of the 5 players.
+
+
 **Conclusion**
 ---------------
 
-
+  We can safely say that a quick analysis of players accuracy in making each type of shot will allow us some insight on whether they should attempt more or less shots overall. Curry is the best because he has consistent accuracy that does not fluctuate for each type of shot he attempts. Therefore, it is not as much of a risk for him to attempt more shots overall than everyone else. We can plainly see why Curry and Thompson attempt disproportionately more 3 point shots. They are consistent.
 
 
 
 **Take Home Message**
 ----------------------
 
->Make sure to include a summarizing statement of the content
-in your article. If the reader had to remember one major thing from your article, what
-would that be?
+>  In summary, if you are consistently good at something, **take some risks!** You're more than likely to shine in a statistical sense, so no need to worry!
 
 
 
