@@ -139,14 +139,14 @@ knitr::kable(as_tibble(effective_shooting_3pt), format='markdown')
 **Conclusion**
 ---------------
 
-  We can safely say that a quick analysis of players accuracy in making each type of shot will allow us some insight on whether they should attempt more or less shots overall. Curry is the best because he has consistent accuracy that does not fluctuate for each type of shot he attempts. Therefore, it is not as much of a risk for him to attempt more shots overall than everyone else. We can plainly see why Curry and Thompson attempt disproportionately more 3 point shots. They are consistent.
+  We can safely say that a quick analysis of players accuracy in making each type of shot will allow us some insight on whether they should attempt more or less shots overall. Curry is the best because he has consistent accuracy that does not fluctuate for each type of shot he attempts. Therefore, it is not as much of a risk for him to attempt more shots overall than everyone else. We can plainly see why Curry and Thompson attempt disproportionately more 3 point shots. They are consistent, so they can attempt as many shots as they need without sacrificing too much in the way of accuracy.
 
-
+  A valid assumption to make is that total number of shots made isn't always an indicator of the value of NBA player. Obviously the location of shots will be about the same for most players, so that leaves one last point. The number of shots players make vs. the number of shots attempted is the most important thing to look at when deciding who is the best. Accuracy is better than quanitity, and not just in one category. The best players are accurate in a larger variety of shot types than others, and don't tend to focus too much on only one kind of shot (eg: 2 vs 3 points).
 
 **Take Home Message**
 ----------------------
 
->  In summary, if you are consistently good at something, be like Stephen Curry and **take some risks!** You're more than likely to shine in a statistical sense, so no need to worry!
+>  In summary, if you are consistently good at something, be like Stephen Curry and **take some risks!** Branch out and become good at a variety of things. **Variety is the spice of life** and it will make you the best!
 
 
 
