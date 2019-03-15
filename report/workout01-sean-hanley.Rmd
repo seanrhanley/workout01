@@ -146,7 +146,7 @@ knitr::kable(as_tibble(effective_shooting_3pt), format='markdown')
 **Take Home Message**
 ----------------------
 
->  In summary, if you are consistently good at something, **take some risks!** You're more than likely to shine in a statistical sense, so no need to worry!
+>  In summary, if you are consistently good at something, be like Stephen Curry and **take some risks!** You're more than likely to shine in a statistical sense, so no need to worry!
 
 
 
