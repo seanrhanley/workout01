@@ -1,16 +1,19 @@
 ---
-title: "workout01-sean-hanley.Rmd"
+title: "Workout 1"
 author: "Sean Hanley"
-date: "March 11, 2019"
 output: github_document
 ---
 
-```{r}
+```{r intializing, include=FALSE}
 
 #load library functions
 library(readr)
 library(ggplot2)
 library(dplyr)
 
+```
+
+```{r out.width='80%', echo = FALSE, fig.align='center'}
+  knitr::include_graphics('gsw-shot-charts.png')
 ```
 
