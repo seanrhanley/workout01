@@ -68,14 +68,14 @@ Here are the derived tables made from the original dataset.
 
 **2PT shot statistics by player. Includes total shots attempted, total shots made, and percentage of each.**
 ```{r echo=FALSE}
-knitr::kable(as_tibble(effective_shooting_all), format='markdown')
+knitr::kable(as_tibble(effective_shooting_2pt), format='markdown')
 ```
 
 
 
 **3PT shot statistics. Includes total shots attempted, total shots made, and percentage of each.**
 ```{r echo=FALSE}
-knitr::kable(as_tibble(effective_shooting_all), format='markdown')
+knitr::kable(as_tibble(effective_shooting_3pt), format='markdown')
 ```
 
 
@@ -98,12 +98,13 @@ knitr::kable(as_tibble(effective_shooting_all), format='markdown')
 
 >If Curry is the best, why does he not score the highest percentage of overall shots? In fact, this image may imply that Thompson and Durant aren't that far behind in distribution and number of shots. Would it surprise you to know that Thompson and Durant actually score more shots overall than Curry? Take a look at the following table:
 
+**Overall shots**
 ```{r echo=FALSE}
 knitr::kable(as_tibble(effective_shooting_all), format='markdown')
 ```
 
 
-    Stephen Curry made roughly 47% of the shots he took in 2016. This is 5% higher than Green, but surprisingly 7% lower than Durant. In fact Iguodala, Thompsonm and Durant all made more of their respective shots than Curry. Is this because Curry took the most shots (1250) out of these five players?
+  Stephen Curry made roughly 47% of the shots he took in 2016. This is 5% higher than Green, but surprisingly 7% lower than Durant. In fact Iguodala, Thompsonm and Durant all made more of their respective shots than Curry. Is this because Curry took the most shots (1250) out of these five players?
 
   Kevin Durant actually made more successful shots out of these 5 players. However, he only attempted 915 total shots. The geometric distribution of his shots were also similary to those of Curry and Thompson. This signals that it may not be how many shots you take, but where the shot was taken. However, when we look closer, it's easy to see that shots taken near the basket are more successful and those clustered away from the 3 point line are less successful proportionally. 
 
@@ -124,7 +125,7 @@ knitr::kable(as_tibble(effective_shooting_2pt), format='markdown')
 knitr::kable(as_tibble(effective_shooting_3pt), format='markdown')
 ```
 
-  Curry attempted a disproportionately large amount of 3 points shots and made about 41% of them successfully. He was second right behind Thompson who made 100 less shots with an accuracy of 42%. Not much of a difference. Meanwhile, Durant, Iguodala, and Green attempted far below 50% of the same amount of 3 point shots with an accuracy range of 30%.
+  Curry attempted a disproportionately large amount of 3 point shots and made about 41% of them successfully. He was second right behind Thompson who made 100 less shots with an accuracy of 42%. Not much of a difference. Meanwhile, Durant, Iguodala, and Green attempted far below 50% of the same amount of 3 point shots with an accuracy range of 30%.
   
   
   **Thoughts**
